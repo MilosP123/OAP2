@@ -145,14 +145,6 @@ pylint bez E poruka i ocenu najmanje 5, zatim fresh-kernel nbmake nad sintetičk
 podacima. To ne potvrđuje naučne rezultate niti brzinu čitanja velikog stvarnog
 kataloga. Detaljni poslednji rezultati su u `VERIFIKACIJA.md`.
 
-## Šta još nedostaje za konačnu predaju
-
-- Stvarni podaci uz repo ili pouzdano automatsko preuzimanje za drugi računar.
-- Izvršavanje i tumačenje novih rezultata nad pravim katalogom, sa vremenom
-  svake ćelije unutar propisanih 60 sekundi. Ako je ulaz prevelik, pripremiti
-  kompaktan stvarni analitički ulaz i odgovarajući notebook; ne menjati test da sakrije problem.
-- Dodatna nastavna .md uputstva sa slika, koja nisu dostavljena u repozitorijumu.
-- Prezentacija od 10 minuta: cilj/potreba, podaci/metod, živo pokretanje,
   objašnjenje funkcije, naučni izazovi, naučeno i ograničenja; 15 minuta pitanja.
 - Na ciljnom računaru proveriti `git status` i da lokalni commit odgovara
   predatom GitHub commit-u. Čist working tree sam po sebi ne dokazuje da je urađen push.
