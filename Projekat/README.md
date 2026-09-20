@@ -133,8 +133,6 @@ sintetički katalog i pokreće pravi `pytest --nbmake --nbmake-timeout=60` u nov
 kernelu. Privremeni ulazi/izlazi ne mogu prepisati stvarne podatke.
 Testovi proveravaju i bajt-po-bajt nepromenjenost ulaznih HDF5 fajlova.
 
-Nad stvarnim ulazom profesorkina provera glasi:
-
 ```bash
 pytest --nbmake --nbmake-timeout=60 Untitled7.ipynb
 nbqa pylint Untitled7.ipynb
