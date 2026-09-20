@@ -143,7 +143,6 @@ pylint bez E poruka i ocenu najmanje 5, zatim fresh-kernel nbmake nad sintetičk
 podacima. To ne potvrđuje naučne rezultate niti brzinu čitanja velikog stvarnog
 kataloga. Detaljni poslednji rezultati su u `VERIFIKACIJA.md`.
 
-  objašnjenje funkcije, naučni izazovi, naučeno i ograničenja; 15 minuta pitanja.
-- Na ciljnom računaru proveriti `git status` i da lokalni commit odgovara
-  predatom GitHub commit-u. Čist working tree sam po sebi ne dokazuje da je urađen push.
+- Na računaru proveriti `git status` i da lokalni commit odgovara
+  predatom GitHub commit-u.
 
