@@ -45,10 +45,23 @@ nepromenjenost ulaznih fajlova; novi Python proces bez prethodnih promenljivih.
 
 ## GitHub Actions
 
-Dodata je konfiguracija `.github/workflows/agn-checks.yml` za Python 3.11/3.12.
-Ona pokreće testove, oba pylint uslova i pravi `nbmake` preko
-`tools/check_notebook.py`. GitHub rezultat se potvrđuje zasebno nakon objave;
-sama konfiguracija nije dokaz da je provera izvršena ili prošla.
+Provere su zaista izvršene i prošle na GitHub-u za objavljeni commit
+[`99f8cd6`](https://github.com/MilosP123/OAP2/commit/99f8cd6864de90a4a5c3441a1e44ef4db6b4216d).
+Dokaz: [GitHub Actions run 35506632467](https://github.com/MilosP123/OAP2/actions/runs/35506632467).
+
+| Okruženje | Testovi | Notebook pylint | Pravi fresh-kernel nbmake |
+|---|---|---|---|
+| Linux / Python 3.11 | 36 passed, 10.03 s | 9.42/10, errors-only prošao | 1 passed, 3.21 s |
+| Linux / Python 3.12 | 36 passed, 14.61 s | 9.42/10, errors-only prošao | 1 passed, 4.02 s |
+
+Oba posla imaju status success. Konfiguracija `.github/workflows/agn-checks.yml`
+pokreće testove, oba pylint uslova i pravi `nbmake` preko
+`tools/check_notebook.py`, sa `--nbmake-timeout=60`. Notebook se kopira u privremen
+folder i izvršava u novom kernelu; ulaz su isključivo označeni sintetički podaci.
+Ovo potvrđuje redosled izvršavanja i odsustvo skrivenog stanja na tom ulazu,
+a ne nove naučne rezultate ili brzinu rada sa punim TNG katalogom.
+Lokalna zabrana soketa navedena iznad prevaziđena je ovom CI proverom.
+Ova naknadna dopuna izveštaja ne menja testirani izvršni kod.
 
 ## Ograničenja koja ostaju
 
