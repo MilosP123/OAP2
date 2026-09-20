@@ -1,0 +1,5 @@
+data/group99/
+outputs/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

@@ -1,0 +1,11 @@
+# Testirano na Python 3.12; CI proverava Python 3.11 i 3.12.
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+scipy==1.17.0
+h5py==3.16.0
+ipykernel==7.3.0
+pytest==9.1.1
+nbmake==1.5.5
+nbqa==1.9.1
+pylint==4.0.8
