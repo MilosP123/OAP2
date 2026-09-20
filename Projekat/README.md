@@ -141,7 +141,7 @@ nbqa pylint Untitled7.ipynb
 GitHub Actions konfiguracija proverava Python 3.11/3.12, regresione testove,
 pylint bez E poruka i ocenu najmanje 5, zatim fresh-kernel nbmake nad sintetičkim
 podacima. To ne potvrđuje naučne rezultate niti brzinu čitanja velikog stvarnog
-kataloga. Detaljni poslednji rezultati su u `VERIFIKACIJA.md`.
+kataloga. 
 
 - Na računaru proveriti `git status` i da lokalni commit odgovara
   predatom GitHub commit-u.
