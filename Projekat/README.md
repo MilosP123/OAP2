@@ -149,5 +149,3 @@ kataloga. Detaljni poslednji rezultati su u `VERIFIKACIJA.md`.
 - Na ciljnom računaru proveriti `git status` i da lokalni commit odgovara
   predatom GitHub commit-u. Čist working tree sam po sebi ne dokazuje da je urađen push.
 
-`PREGLED.md` čuva jasno označen istorijski pregled i plan istraživanja;
-`IZMENE.md` sadrži original/izmenjeno kod. Stari izlazi nisu konačni rezultati.
